@@ -63,7 +63,8 @@ df.describe()
 ```
 df.isnull()
 ```
-![Screenshot 2024-08-31 210754](https://github.com/user-attachments/assets/5f71ebd6-6e54-4a2a-abeb-f744ce402936)
+![Screenshot 2024-08-31 210754](https://github.com/user-attachments/assets/c9d024b5-deb1-43b6-a49b-0181adedb9e2)
+
 
 df.isnull().sum()
 ```
