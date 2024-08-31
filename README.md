@@ -1,4 +1,4 @@
-# Exno:1
+![image](https://github.com/user-attachments/assets/0149564f-fba8-41a7-a1c7-b8ecb393cc97)# Exno:1
 Data Cleaning Process
 # REDDINENI ADARSH CHOWDARY 
 # 212223040166
@@ -206,6 +206,40 @@ df1 = df[z<3]
 df1
 ```
 ![image](https://github.com/user-attachments/assets/c672751c-9c06-4712-a6db-a70a5b369fdf)
+
+```
+import pandas as pd
+df=pd.read_csv('bank_train.csv')
+```
+```
+df.loc[(df['education']=='primary')&(df['deposit']=='yes')]
+
+```
+![Screenshot 2024-08-31 212130](https://github.com/user-attachments/assets/5037c90c-3caf-42f6-976e-5e29dae65a80)
+
+```
+df.loc[(df['deposit']=='no')]
+```
+![Screenshot 2024-08-31 212310](https://github.com/user-attachments/assets/ec321f5b-a02c-4157-ae23-34cb0ceba4b5)
+
+```
+df.loc[(df['deposit']=='yes')&((df['housing']=='yes')|(df['loan']=='yes'))]
+```
+![Screenshot 2024-08-31 212428](https://github.com/user-attachments/assets/7c48e28c-b237-4531-a5b7-08a1255f4e88)
+```
+df.loc[(df['education']=='secondary')&(df['deposit']=='no')]
+```
+![Screenshot 2024-08-31 212554](https://github.com/user-attachments/assets/daece52a-df29-4584-a931-f5e9373558e5)
+
+```
+df.loc[(df['poutcome']=='success')&(df['deposit']=='yes')]
+```
+![Screenshot 2024-08-31 212654](https://github.com/user-attachments/assets/6999db96-bd27-4419-90aa-a9fdd117693b)
+
+```
+df.loc[(df['job']=='unemployed')&(df['deposit']=='no')]
+```
+![Screenshot 2024-08-31 213520](https://github.com/user-attachments/assets/c8d62945-843b-4a06-ba44-7a36301bad7b)
 
 # Result:
 Thus we have cleaned the data and removed the outliers by detection using IQR and Z-score method.
