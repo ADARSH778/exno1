@@ -100,6 +100,12 @@ df_dropped
 df.fillna({'GENDER':'MALE','NAME':'SRI','ADDRESS':'POONAMALEE','M1':98,'M2':87,'M3':76,'M4':92,'TOTAL':305,'AVG':89.999999})
 ```
 ![image](https://github.com/user-attachments/assets/7da459ae-b31f-45ca-ba60-56b536af2d96)
+```
+df.filter(regex='a',axis=1)
+```
+
+![Screenshot 2024-08-31 211310](https://github.com/user-attachments/assets/7196b7b8-cc36-49b8-857d-464b7c0df9d5)
+
 
 ## IQR(Inter Quartile Range):
 ```
