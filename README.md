@@ -60,6 +60,11 @@ df.describe()
 ![Screenshot 2024-08-31 210036](https://github.com/user-attachments/assets/71423f43-527f-44b3-85d6-a9d60460ab9e)
 
 ```
+```
+df.isnull()
+```
+![Screenshot 2024-08-31 210754](https://github.com/user-attachments/assets/5f71ebd6-6e54-4a2a-abeb-f744ce402936)
+
 df.isnull().sum()
 ```
 ![Screenshot 2024-08-20 111008](https://github.com/user-attachments/assets/f36c78ab-7c9b-48a4-ac3f-427b27b9aaf8)
