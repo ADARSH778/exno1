@@ -60,10 +60,6 @@ df.describe()
 ![Screenshot 2024-08-31 210036](https://github.com/user-attachments/assets/71423f43-527f-44b3-85d6-a9d60460ab9e)
 
 ```
-```
-df.isnull()
-```
-![Screenshot 2024-08-31 210754](https://github.com/user-attachments/assets/c9d024b5-deb1-43b6-a49b-0181adedb9e2)
 
 
 df.isnull().sum()
