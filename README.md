@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/0149564f-fba8-41a7-a1c7-b8ecb393cc97)# Exno:1
+# Exno:1
 Data Cleaning Process
 # REDDINENI ADARSH CHOWDARY 
 # 212223040166
