@@ -46,6 +46,20 @@ df.tail(5)
   ![Screenshot 2024-08-31 205710](https://github.com/user-attachments/assets/0575f3a8-ff30-4118-a4b9-b7c15dcdb703)
 
 ```
+import pandas as pd
+df=pd.read_csv("SAMPLEIDS.csv")
+df.info()
+```
+![Screenshot 2024-08-31 205932](https://github.com/user-attachments/assets/4edc7812-add4-4416-ade4-8421712a96ba)
+
+```
+import pandas as pd
+df=pd.read_csv("SAMPLEIDS.csv")
+df.describe()
+```
+![Screenshot 2024-08-31 210036](https://github.com/user-attachments/assets/71423f43-527f-44b3-85d6-a9d60460ab9e)
+
+```
 df.isnull().sum()
 ```
 ![Screenshot 2024-08-20 111008](https://github.com/user-attachments/assets/f36c78ab-7c9b-48a4-ac3f-427b27b9aaf8)
