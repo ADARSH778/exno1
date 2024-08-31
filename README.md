@@ -105,6 +105,11 @@ df.filter(regex='a',axis=1)
 ```
 
 ![Screenshot 2024-08-31 211310](https://github.com/user-attachments/assets/7196b7b8-cc36-49b8-857d-464b7c0df9d5)
+```
+df.iloc[:4]
+```
+![Screenshot 2024-08-31 211449](https://github.com/user-attachments/assets/8566bb71-62cc-42bc-b45d-e704bbb692cc)
+
 
 
 ## IQR(Inter Quartile Range):
