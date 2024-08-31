@@ -31,6 +31,21 @@ df
 ![Screenshot 2024-08-20 105832](https://github.com/user-attachments/assets/cc502500-1e06-4b9c-a8aa-b7ef665ef0ef)
 
 ```
+import pandas as pd
+df=pd.read_csv("SAMPLEIDS.csv")
+df.head(5)
+```
+![Screenshot 2024-08-31 205558](https://github.com/user-attachments/assets/4042e07c-31b9-4c71-af35-f80e91edbe21)
+
+
+```
+import pandas as pd
+df=pd.read_csv("SAMPLEIDS.csv")
+df.tail(5)
+```
+  ![Screenshot 2024-08-31 205710](https://github.com/user-attachments/assets/0575f3a8-ff30-4118-a4b9-b7c15dcdb703)
+
+```
 df.isnull().sum()
 ```
 ![Screenshot 2024-08-20 111008](https://github.com/user-attachments/assets/f36c78ab-7c9b-48a4-ac3f-427b27b9aaf8)
